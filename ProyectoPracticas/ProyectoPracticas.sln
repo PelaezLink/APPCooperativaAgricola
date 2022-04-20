@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{41C98454-759A-4B75-B107-B364F9D83BF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{BD42B1A4-FED0-43CD-A1FB-6FBE0C26497F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarongISWLib", "ClassLibrary\TarongISWLib.csproj", "{9703ECC9-6503-4816-B97B-61A29513EF1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{C525907C-B27A-42A1-B499-E1642EB3E2FD}"
+	ProjectSection(SolutionItems) = preProject
+		Class2.cs = Class2.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldApp", "HelloWorldApp\HelloWorldApp.csproj", "{9560D3A1-2D84-4CE5-BD16-F5380CC6BB28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lab1", "lab1", "{362141C2-97C9-4BDD-BA16-C2652CCC8947}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TarongISWObjectDesignTest", "TarongISWObjectDesignTest\TarongISWObjectDesignTest.csproj", "{27A836E7-02C3-4407-806B-4B9CF04A2DAF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9703ECC9-6503-4816-B97B-61A29513EF1E} = {9703ECC9-6503-4816-B97B-61A29513EF1E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarongISWPersistenceTests", "TarongISWPersistenceTests\TarongISWPersistenceTests.csproj", "{7918C698-556B-4782-869C-300D61DDA666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBTest", "DBTest\DBTest.csproj", "{F5C62EB6-55C9-4CD0-8E1D-51D423424CBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicTest", "BusinessLogicTest\BusinessLogicTest.csproj", "{106A12F8-4ED2-487A-9825-A5B55A0D171B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarongISW.GUI", "TarongISW.GUI\TarongISW.GUI.csproj", "{96F35BF7-031C-484E-9E55-D74E314B6AF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9703ECC9-6503-4816-B97B-61A29513EF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9703ECC9-6503-4816-B97B-61A29513EF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9703ECC9-6503-4816-B97B-61A29513EF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9703ECC9-6503-4816-B97B-61A29513EF1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9560D3A1-2D84-4CE5-BD16-F5380CC6BB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9560D3A1-2D84-4CE5-BD16-F5380CC6BB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9560D3A1-2D84-4CE5-BD16-F5380CC6BB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9560D3A1-2D84-4CE5-BD16-F5380CC6BB28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27A836E7-02C3-4407-806B-4B9CF04A2DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A836E7-02C3-4407-806B-4B9CF04A2DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A836E7-02C3-4407-806B-4B9CF04A2DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A836E7-02C3-4407-806B-4B9CF04A2DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7918C698-556B-4782-869C-300D61DDA666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7918C698-556B-4782-869C-300D61DDA666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7918C698-556B-4782-869C-300D61DDA666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7918C698-556B-4782-869C-300D61DDA666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C62EB6-55C9-4CD0-8E1D-51D423424CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C62EB6-55C9-4CD0-8E1D-51D423424CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C62EB6-55C9-4CD0-8E1D-51D423424CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C62EB6-55C9-4CD0-8E1D-51D423424CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106A12F8-4ED2-487A-9825-A5B55A0D171B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106A12F8-4ED2-487A-9825-A5B55A0D171B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106A12F8-4ED2-487A-9825-A5B55A0D171B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106A12F8-4ED2-487A-9825-A5B55A0D171B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F35BF7-031C-484E-9E55-D74E314B6AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F35BF7-031C-484E-9E55-D74E314B6AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F35BF7-031C-484E-9E55-D74E314B6AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F35BF7-031C-484E-9E55-D74E314B6AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9703ECC9-6503-4816-B97B-61A29513EF1E} = {BD42B1A4-FED0-43CD-A1FB-6FBE0C26497F}
+		{9560D3A1-2D84-4CE5-BD16-F5380CC6BB28} = {362141C2-97C9-4BDD-BA16-C2652CCC8947}
+		{362141C2-97C9-4BDD-BA16-C2652CCC8947} = {C525907C-B27A-42A1-B499-E1642EB3E2FD}
+		{27A836E7-02C3-4407-806B-4B9CF04A2DAF} = {C525907C-B27A-42A1-B499-E1642EB3E2FD}
+		{7918C698-556B-4782-869C-300D61DDA666} = {C525907C-B27A-42A1-B499-E1642EB3E2FD}
+		{F5C62EB6-55C9-4CD0-8E1D-51D423424CBD} = {C525907C-B27A-42A1-B499-E1642EB3E2FD}
+		{106A12F8-4ED2-487A-9825-A5B55A0D171B} = {C525907C-B27A-42A1-B499-E1642EB3E2FD}
+		{96F35BF7-031C-484E-9E55-D74E314B6AF2} = {41C98454-759A-4B75-B107-B364F9D83BF9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24FD7E76-4D9C-449A-AD92-BC30EE2DEAF6}
+	EndGlobalSection
+EndGlobal
